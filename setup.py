@@ -6,7 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pydantic>=1.9.2,<2.0.0",
-        "jinja2>=3.1.2,<4.0.0",
-        "python>=3.7,<4.0"
+        "jinja2>=3.1.2,<4.0.0"
     ],
 )
