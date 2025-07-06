@@ -1906,7 +1906,7 @@ class ConditionBuilder(FormItem):
 
     class Custom(Field):
         """自定义"""
-        type = "custom"
+        type: str = "custom"
         """自定义"""
         operators: Union[list, str, dict] = []
         """默认为空，需配置自定义判断条件，支持字符串或 key-value 格式"""
